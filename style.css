@@ -1,0 +1,69 @@
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+div{
+  display: block;
+}
+body{
+  background:whitesmoke;
+  color:rgb(63, 38, 58);
+  font-family:'Merriweather', italic;
+  font-size:16px;
+  font-weight: lighter;
+}
+h1,h2,h3{
+  font-family:'Poppins';
+}
+h2{
+  color:purple;
+  font-size:18px;
+}
+h3{
+  color:645CBB;
+  font-size:20px;
+  line-height:150%;
+}
+a:hover{
+  color:rgb(161, 48, 161);
+  background:rgb(188, 137, 188);
+}
+.card-white{
+  background-color: EBC7E6;
+  padding: 40px;
+  box-shadow: 1px 1px 30px rgb(215 100 214 / 30%);
+  border-radius: 5px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle{
+  border-radius: 50%;
+}
+.inline-list > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.inline-list{
+  list-style: none;
+  padding-left: 0px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
